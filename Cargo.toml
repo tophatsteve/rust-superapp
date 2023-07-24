@@ -1,0 +1,12 @@
+ [workspace]
+ members = [
+    "common",
+    "database",
+    "kafka",
+    "books_api",
+    "books_analytics"
+ ]
+
+ [workspace.dependencies]
+ # We will add all our common dependent crates for our sub crates to share
+ # the same version. How cool is that :D
